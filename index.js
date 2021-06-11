@@ -2,7 +2,7 @@ ej.base.enableRipple(true);
 ej.diagrams.Diagram.Inject(ej.diagrams.DataBinding, ej.diagrams.BpmnDiagrams);
 var basicShapeModel = [
   {
-    shape: { type: 'Text', content: 'Basic Shapes' },
+    shape: { type: 'Text', content: '' },
     constraints: ej.diagrams.NodeConstraints.PointerEvents,
     style: {
       fontSize: 16,
@@ -14,11 +14,11 @@ var basicShapeModel = [
   },
   {
     shape: { type: 'Basic', shape: 'Rectangle' },
-    annotations: [{ content: 'Rectangle' }]
+    annotations: [{ content: 'My Rectangle' }]
   },
   {
     shape: { type: 'Basic', shape: 'Ellipse' },
-    annotations: [{ content: 'Ellipse' }]
+    annotations: [{ content: 'My Circule' }]
   }
 ];
 /**
